@@ -1,0 +1,593 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1b1b1b;
+    color: white;
+    margin:0;
+}
+
+header{
+    background: linear-gradient(to bottom, #111, #2b0000);
+    color: white;
+    padding: 35px;
+    text-align: center;
+    border-bottom: 4px solid #b71c1c
+}
+
+main{
+    width: 85%;
+    max-width: 1300px;
+    margin: 35px auto;
+}
+
+#lista-games{
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+
+.card-game{
+    background: #1f1f1f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20 px;
+    transition: 0.3s;
+}
+
+.card-game:hover{
+    transform:scale(1.02);
+}
+
+.capa-game{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+
+    box-shadow: 0px 0px 25px rgba(0,0,0,.6);
+
+}
+
+.card-guide{
+    background: linear-gradient(145deg,#2d2d2d,#1b1b1b);
+    color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-left: 6px solid #b71c1c;
+    border-radius: 12px;
+    transition: .3s;
+    box-shadow: 0px 5px 20px rgba(0,0,0,.4);
+}
+
+.card-guide:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(0,0,0,.6);
+}
+
+h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.rdr2{
+    background: linear-gradient(160deg, #5b0b0b, #1a1a1a);
+    border: 2px solid #9c1c1c;
+    border-left: 8px solid #d62828;
+    box-shadow: 0px 6px 20px rgba(0,0,0,.5);
+}
+
+.rdr2:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 30px rgba(214,40,40,.5)
+}
+
+.rdr2 h3{
+    color: #f5d76e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.rdr2 p{
+    color: #ececec;
+    line-height: 1.6;
+}
+
+.rdr2 .capa-game{
+    border: 3px solid #8b0000;
+}
+
+.tlou2{
+    background: linear-gradient(160deg, #1b2721, #2d2d2d);
+    border: 2px solid #4d5f52;
+    border-left: 8px solid #7d9c85;
+    box-shadow: 0px 6px 20px rgba(0,0,0,.5);
+}
+
+.tlou2:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 30px rgba(125,156,133,.5);
+}
+
+.tlou2 h3{
+    color: #e8e8e8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tlou2 p{
+    color: #d6d6d6;
+    line-height: 1.6;
+}
+
+.tlou2 .capa-game{
+    border: 3px solid #5d6f63;
+}
+
+.cyberpunk2077{
+    background: linear-gradient(160deg, #111111, #1b1b3a);
+    border: 2px solid #00e5ff;
+    border-left: 8px solid #ffd500;
+    box-shadow: 0px 6px 20px rgba(0,229,255,.4);
+}
+
+.cyberpunk2077:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 30px rgba(255,213,0,.6);
+}
+
+.cyberpunk2077 h3{
+    color: #ffd500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-shadow: 0px 0px 8px #00e5ff;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.cyberpunk2077 p{
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.cyberpunk2077 .capa-game{
+    border: 3px solid #00e5ff;
+}
+
+.sotc{
+    background: linear-gradient(160deg, #5c5a4d, #2e312b);
+    border: 2px solid #8b8160;
+    border-left: 8px solid #c9b37a;
+    box-shadow: 0px 6px 20px rgba(0,0,0,.5);
+}
+
+.sotc:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 30px rgba(201,179,122,.45);
+}
+
+.sotc h3{
+    color: #f2e6c9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+    font-family: 'Cinzel', sans-serif;
+}
+
+.sotc p{
+    color: #e2ddd0;
+    line-height: 1.6;
+}
+
+.sotc .capa-game{
+    border: 3px solid #8b8160;
+}
+
+.deathstranding{
+    background: linear-gradient(160deg, #0f1720, #1e2933);
+    border: 2px solid #4f6d7a;
+    border-left: 8px solid #6ec6ff;
+    box-shadow: 0px 0px 30px rgba(110,198,255,.45);
+}
+
+.deathstranding:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 30px rgba(110,198,255,.45);
+}
+
+.deathstranding h3{
+    color: #d9e6ee;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    text-shadow: 0px 0px 8px rgba(110,198,255,.3);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.deathstranding p{
+    color: #c7d3da;
+    line-height: 1.6;
+}
+
+.deathstranding .capa-game{
+    border: 3px solid #6ec6ff;
+}
+
+.tema-rdr2{
+    background: #1a1a1a;
+    color: white;
+}
+
+.tema-rdr2 header{
+    background: linear-gradient(#450000, #220000);
+    border-bottom: 4px solid #d62828;
+}
+
+.tema-rdr2 #informacoes-jogo{
+    background: #341414;
+    border: 2px solid #c62828;
+    border-radius: 18px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 25px rgba(0,0,0,.45);
+}
+
+.tema-rdr2 .card-guide{
+    background: #262626;
+    border-left: 8px solid #d62828;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.4);
+}
+
+.tema-rdr2 .menu-guias button{
+    background: #400000;
+    color: white;
+    border: 1px solid #d62828;
+    transition: .3s;
+}
+
+.tema-rdr2 .menu-guias button:hover{
+    background: #d62828;
+}
+
+.tema-rdr2 h2{
+    color: #ffd166;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.tema-rdr2 p{
+    color: #ececec;
+}
+
+.tem-rdr2 .capa-game{
+    border-radius: 18px;
+    border: 3px solid #b71c1c;
+}
+
+.tema-tlou2{
+    background:#161816;
+    color:white;
+}
+
+.tema-tlou2 header{
+    background:linear-gradient(#1f3a25,#101010);
+    border-bottom:4px solid #4CAF50;
+}
+
+.tema-tlou2 #informacoes-jogo{
+    background:#202720;
+    border:2px solid #4CAF50;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:40px;
+    box-shadow:0 0 25px rgba(0,0,0,.45);
+}
+
+.tema-tlou2 .capa-game{
+    border-radius:18px;
+    border:3px solid #4CAF50;
+}
+
+.tema-tlou2 h1{
+    font-family:'Oswald', sans-serif;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.tema-tlou2 h2{
+    font-family:'Oswald', sans-serif;
+    color:#9CCC65;
+    text-transform:uppercase;
+}
+
+.tema-tlou2 p{
+    color:#E8E8E8;
+}
+
+.tema-tlou2 .card-guide{
+    background:#232323;
+    border-left:8px solid #4CAF50;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.45);
+}
+
+.tema-tlou2 .menu-guias button{
+    background:#1F3A25;
+    color:white;
+    border:1px solid #4CAF50;
+    transition:.3s;
+}
+
+.tema-tlou2 .menu-guias button:hover{
+    background:#4CAF50;
+    color:white;
+}
+
+.tema-cyberpunk2077{
+    background:#0d0d0d;
+    color:white;
+}
+
+.tema-cyberpunk2077 header{
+    background:linear-gradient(#f7df1e,#7a6c00);
+    border-bottom:4px solid #00e5ff;
+}
+
+.tema-cyberpunk2077 #informacoes-jogo{
+    background:#181818;
+    border:2px solid #00e5ff;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:40px;
+    box-shadow:0 0 20px rgba(0,229,255,.25);
+}
+
+.tema-cyberpunk2077 .capa-game{
+    border-radius:18px;
+    border:3px solid #f7df1e;
+}
+
+.tema-cyberpunk2077 h1{
+    font-family:'Audiowide', sans-serif;
+    color:#101010;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+.tema-cyberpunk2077 h2{
+    font-family:'Audiowide', sans-serif;
+    color:#f7df1e;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+.tema-cyberpunk2077 h3{
+    color:#00e5ff;
+}
+
+.tema-cyberpunk2077 p{
+    color:#ededed;
+}
+
+.tema-cyberpunk2077 strong{
+    color:#f7df1e;
+}
+
+.tema-cyberpunk2077 .card-guide{
+    background:#1b1b1b;
+    border-left:8px solid #00e5ff;
+    border-radius:18px;
+    box-shadow:0 0 20px rgba(0,229,255,.2);
+}
+
+.tema-cyberpunk2077 .menu-guias button{
+    background:#1c1c1c;
+    color:#f7df1e;
+    border:1px solid #00e5ff;
+    transition:.3s;
+}
+
+.tema-cyberpunk2077 .menu-guias button:hover{
+    background:#00e5ff;
+    color:#101010;
+    box-shadow:0 0 15px #00e5ff;
+}
+
+.tema-sotc{
+    background:#d8d2c5;
+    color:#2d2d2d;
+}
+
+.tema-sotc header{
+    background:linear-gradient(#7d7466,#4b443b);
+    border-bottom:4px solid #b9a779;
+}
+
+.tema-sotc #informacoes-jogo{
+    background:#ece8de;
+    border:2px solid #9f9077;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.tema-sotc .capa-game{
+    border-radius:18px;
+    border:3px solid #8c806d;
+}
+
+.tema-sotc h1{
+    font-family:'Cinzel', serif;
+    color:white;
+    letter-spacing:3px;
+}
+
+.tema-sotc h2{
+    font-family:'Cinzel', serif;
+    color:#5d5447;
+    letter-spacing:2px;
+}
+
+.tema-sotc h3{
+    font-family:'Cinzel', serif;
+    color:#6d6255;
+}
+
+.tema-sotc p{
+    color:#3f3f3f;
+}
+
+.tema-sotc strong{
+    color:#4f473d;
+}
+
+.tema-sotc .card-guide{
+    background:#f4f1ea;
+    border-left:8px solid #9f9077;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+}
+
+.tema-sotc .menu-guias button{
+    background:#d6cdbf;
+    color:#4b443b;
+    border:1px solid #8f7d61;
+    transition:.3s;
+}
+
+.tema-sotc .menu-guias button:hover{
+    background:#9f9077;
+    color:white;
+}
+
+.tema-deathstranding{
+    background:#0b0f16;
+    color:#e8e8e8;
+}
+
+.tema-deathstranding header{
+    background:linear-gradient(#111827,#05070c);
+    border-bottom:4px solid #4fc3f7;
+}
+
+.tema-deathstranding #informacoes-jogo{
+    background:#161c24;
+    border:2px solid #4fc3f7;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:40px;
+    box-shadow:0 0 25px rgba(79,195,247,.15);
+}
+
+.tema-deathstranding .capa-game{
+    border-radius:18px;
+    border:3px solid #4fc3f7;
+}
+
+.tema-deathstranding h1{
+    font-family:'Rajdhani', sans-serif;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
+
+.tema-deathstranding h2{
+    font-family:'Rajdhani', sans-serif;
+    color:#81d4fa;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+.tema-deathstranding h3{
+    font-family:'Rajdhani', sans-serif;
+    color:#b3e5fc;
+}
+
+.tema-deathstranding p{
+    color:#d7d7d7;
+}
+
+.tema-deathstranding strong{
+    color:#81d4fa;
+}
+
+.tema-deathstranding .card-guide{
+    background:#1b222c;
+    border-left:8px solid #4fc3f7;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,.35);
+}
+
+.tema-deathstranding .menu-guias button{
+    background:#111827;
+    color:#81d4fa;
+    border:1px solid #4fc3f7;
+    transition:.3s;
+}
+
+.tema-deathstranding .menu-guias button:hover{
+    background:#4fc3f7;
+    color:#081018;
+}
+
+.informacoes-item.rdr2{
+    background: linear-gradient(135deg, #5c0b0b, #1a1a1a);
+    color: #f5e6c8;
+    border-left: 6px solid #b22222;
+    font-family: 'Anton', sans-serif;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.informacoes-item.tlou2{
+    background: linear-gradient(135deg, #1b2d22, #0f0f0f);
+    color: #d9d9d9;
+    border-left: 6px solid #5d8a63;
+    font-family: 'Oswald', sans-serif;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.informacoes-item.cyberpunk2077{
+    background: linear-gradient(135deg, #ffe600, #00d9ff);
+    color: #111;
+    border-left: 6px solid #ff0077;
+    font-family: 'Audiowide', sans-serif;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.informacoes-item.sotc{
+    background: linear-gradient(135deg, #5f5b4d, #2b2b2b);
+    color: #ece7d5;
+    border-left: 6px solid #9d8b5f;
+    font-family: 'Cinzel', serif;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.informacoes-item.deathstranding{
+    background: linear-gradient(135deg, #0f0f18, #3f5c72);
+    color: #d9e8f5;
+    border-left: 6px solid #7fc8ff;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 25px;
+    border-radius: 12px;
+}
