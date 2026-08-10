@@ -6,7 +6,8 @@ const capas = {
     "The Last of Us Part II": "imagens/tlou2.jpeg",
     "Cyberpunk 2077": "imagens/cyberpunk2077.jpg",
     "Shadow of the Colossus": "imagens/sotc.jpg",
-    "Death Stranding": "imagens/deathstranding.jpg"
+    "Death Stranding": "imagens/deathstranding.jpg",
+    "Grand Theft Auto VI": "imagens/gtavi.jpg"
 };
 
 const iconesCategorias = {
@@ -40,6 +41,9 @@ async function carregarJogo() {
             break;
         case "Death Stranding":
             document.body.classList.add("tema-deathstranding");
+            break;
+        case "Grand Theft Auto VI":
+            document.body.classList.add("tema-gtavi");
             break;
     }
     document.getElementById("header-jogo").innerHTML = `
@@ -155,5 +159,5 @@ async function carregarItensGuia(guideId) {
 }
 
 function abrirItem(itemId){
-    window.location.href = `item.html?id=${id}`;
+    window.location.href = `item.html?id=${itemId}`;
 }

@@ -21,7 +21,11 @@ async function carregarItem(){
         case "Death Stranding":
             classe = "deathstranding";
             break;
+        case "Grand Theft Auto VI":
+            classe = "gtavi";
+            break;
     }
+    document.body.className = `tema-${classe}`;
     document.getElementById("header-item").innerHTML = `
     <h1>${item.titulo}</h1>
     `;

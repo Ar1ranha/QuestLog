@@ -24,6 +24,9 @@ async function carregarGames() {
             case "Death Stranding":
                 classe = "deathstranding";
                 break;
+            case "Grand Theft Auto VI":
+                classe = "gtavi";
+                break;
         }
 
         lista.innerHTML += `
@@ -52,7 +55,8 @@ const capas = {
     "The Last of Us Part II": "imagens/tlou2.jpeg",
     "Cyberpunk 2077": "imagens/cyberpunk2077.jpg",
     "Shadow of the Colossus": "imagens/sotc.jpg",
-    "Death Stranding": "imagens/deathstranding.jpg"
+    "Death Stranding": "imagens/deathstranding.jpg",
+    "Grand Theft Auto VI": "imagens/gtavi.jpg"
 };
 
 carregarGames();

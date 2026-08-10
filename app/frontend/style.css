@@ -30,7 +30,7 @@ main{
     color: white;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20 px;
+    margin-bottom: 20px;
     transition: 0.3s;
 }
 
@@ -275,7 +275,7 @@ h3{
     color: #ececec;
 }
 
-.tem-rdr2 .capa-game{
+.tema-rdr2 .capa-game{
     border-radius: 18px;
     border: 3px solid #b71c1c;
 }
@@ -590,4 +590,256 @@ h3{
     font-family: 'Rajdhani', sans-serif;
     padding: 25px;
     border-radius: 12px;
+}
+
+.informacoes-item{
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#video-item{
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#video-item iframe{
+    border-radius: 10px;
+}
+
+.tema-rdr2{
+    background: #1a0f0f;
+    color: white;
+}
+
+.tema-rdr2 .informacoes-item, .tema-rdr2 #video-item{
+    background: #2b1515;
+    border: 2px solid #8b2e2e;
+}
+
+.tema-rdr2 h1, .tema-rdr2 h2{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.tema-tlou2{
+    background: #101710;
+    color: white;
+}
+
+.tema-tlou2 .informacoes-item, .tema-tlou2 #video-item{
+    background: #1d281d;
+    border: 2px solid #536b53;
+}
+
+.tema-tlou2 h1, .tema-tlou2 h2{
+    font-family: "Oswald", sans-serif;
+}
+
+.tema-cyberpunk2077{
+    background: #0b0b0b;
+    color: white;
+}
+
+.tema-cyberpunk2077 .informacoes-item, .tema-cyberpunk2077 #video-item{
+    background: #161616;
+    border: 2px solid #f5d000;
+}
+
+.tema-cyberpunk2077 h1, .tema-cyberpunk2077 h2{
+    font-family: "Audiowide", sans-serif;
+}
+
+.tema-sotc h1, .tema-sotc h2{
+    font-family: "Cinzel", serif;
+}
+
+.tema-deathstranding {
+    background: #0c141b;
+    color: white;
+}
+
+.tema-deathstranding .informacoes-item, .tema-deathstranding #video-item{
+    background: #14232e;
+    border: 2px solid #52778c;
+}
+
+.tema-deathstranding h1, .tema-deathstranding h2{
+    font-family: "Rajdhani", sans-serif;
+}
+
+.tema-gtavi{
+    background: #120b1c;
+    color: #ffffff;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.tema-gtavi h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 74, 163, 0.7), 0 0 18px rgba(255, 74, 163, 0.35);
+}
+
+.tema-gtavi h2{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    color: #ff6fae;
+}
+
+.tema-gtavi h3{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+}
+
+.tema-gtavi #header-jogo{
+    background: linear-gradient(135deg,#21102f,#351044,#17152d);
+    border-bottom: 3px solid #ff4fa3;
+    box-shadow: 0 4px 20px rgba(255, 79, 163, 0.25);
+}
+
+.tema-gtavi #informacoes-jogo{
+    background: linear-gradient(135deg,#21152d,#151d32);
+    border: 2px solid #8f6cc9;
+    border-radius: 14px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(143, 108, 201, 0.18);
+}
+
+.tema-gtavi #informacoes-jogo h2{
+    color: #ff78b8;
+}
+
+.tema-gtavi #informacoes-jogo strong{
+    color: #77d7e3;
+}
+
+.card-game.gtavi{
+    background: linear-gradient(145deg,#21102f,#3a1748,#17233b);
+    color: white;
+    border: 2px solid #ff5fa8;
+    border-radius: 14px;
+    border-left: 8px solid #79dce5;
+    box-shadow: 0 0 15px rgba(255, 95, 168, 0.18);
+    transition: 0.3s;
+}
+
+.card-game.gtavi:hover{
+    transform: translateY(-7px);
+    border-color: #79dce5;
+    box-shadow: 0 10px 30px rgba(255, 79, 163, 0.25), 0 0 20px rgba(121, 220, 229, 0.15);
+}
+
+.card-game.gtavi h3{
+    color: #ff72b5;
+    text-shadow: 0 0 8px rgba(255, 114, 181, 0.4);
+}
+
+.card_game.gtavi strong{
+    color: #78dce5;
+}
+
+.tema-gtavi .menu-guias button{
+    background: linear-gradient(135deg,#30163f,#422052);
+    color: white;
+    border: 1px solid #a66bd1;
+    border-radius: 8px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.tema-gtavi .menu-guias button:hover{
+    background: linear-gradient(135deg,#ff4fa3,#9d55c9);
+    border-color: #ff9fc8;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 18px rgba(255, 79, 163, 0.3);
+}
+
+.tema-gtavi .card-guide{
+    background: linear-gradient(145deg,#21152d,#182238);
+    color: white;
+    border: 2px solid #76599f;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(118, 89, 159, 0.15);
+    transition: 0.3s;
+}
+
+.tema-gtavi .card-guide:hover{
+    transform: translateY(-5px);
+    border-color: #ff66ad;
+    box-shadow: 0 8px 25px rgba(255, 102, 173, 0.22);
+}
+
+.tema-gtavi .card-guide h3{
+    color: #ff72b5;
+}
+
+.tema-gtavi .card-guide strong{
+    color: #79dce5;
+}
+
+.tema-gtavi .informacoes-item{
+    background: linear-gradient(145deg,#21152d,#151f32);
+    color: white;
+    border: 2px solid #ff5fa8;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(255, 95, 168, 0.15);
+}
+
+.tema-gtavi .informacoes-item h2{
+    color: #ff72b5;
+     text-shadow: 0 0 8px rgba(255, 114, 181, 0.35);
+}
+
+.tema-gtavi .informacoes-item strong{
+    color: #79dce5;
+}
+
+.tema-gtavi #video-item{
+    background: linear-gradient(145deg,#15101f,#111b2b);
+    color: white;
+    border: 2px solid #79dce5;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(121, 220, 229, 0.12);
+}
+
+.tema-gtavi #video-item h2{
+    color: #79dce5;
+    text-shadow: 0 0 8px rgba(121, 220, 229, 0.35);
+}
+
+.tema-gtavi #video-item iframe{
+    border: 2px solid #5e416f;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 79, 163, 0.12);
+}
+
+.tema-gtavi p{
+    color: #e8e2ed;
+}
+
+.tema-gtavi strong{
+    color: #79dce5;
+}
+
+.tema-gtavi button{
+    font-family: "Rajdhani", sans-serif;
+}
+
+.tema-gtavi button:focus{
+    outline: 2px solid #ff6fae;
+    outline-offset: 3px;
+}
+
+@media (max-width: 768px){
+    .tema-gtavi h1{
+        font-size: 2.3rem;
+    }
+    .tema-gtavi #informacoes-jogo, .tema-gtavi .informacoes-item, .tema-gtavi #video-item{
+        padding: 20px;
+    }
+    .tema-gtavi #video-item iframe{
+        height: 350px;
+    }
 }
